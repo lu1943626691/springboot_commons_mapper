@@ -13,6 +13,7 @@ import java.util.List;
 @Controller
 @RequestMapping("person")
 public class PersonController {
+    
     @Autowired
     PersonDao personDao;
     @RequestMapping("select")
